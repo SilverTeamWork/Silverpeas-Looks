@@ -162,9 +162,11 @@ if (m_MainSessionCtrl == null) { %>
 
 <div id="sp-layout-main">
   <div id="sp-layout-header-part"></div>
+	<div id="virtual-keyboard" class="simple-keyboard"></div>
   <div id="sp-layout-body-part"></div>
   <div id="sp-layout-footer-part" style="display: none"></div>
 </div>
+
 <div class="hidden-part" style="height: 0">
   <iframe src="../../clipboard/jsp/Idle.jsp" name="IdleFrame" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
   <iframe src="<c:url value='/Ragenda/jsp/importCalendar'/>" name="importFrame" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
